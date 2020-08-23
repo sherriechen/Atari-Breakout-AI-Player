@@ -1,0 +1,32 @@
+Training time: ~9 hours
+Episodes done: 1493
+Optim steps done: 51656
+Environment steps done: 211621
+
+Parameters:
+BATCH_SIZE = 32
+GAMMA = 0.99
+EPS_START = 1
+EPS_END = 0.1
+EPS_DECAY = 10000
+TARGET_UPDATE = 1000
+LEARNING_FREQ = 4
+LEARNING_START = 5000
+MEMORY_SIZE = 10000
+
+Results:
+Paddle frequently moves to one side then stay there.
+Not good.
+
+What to try next time:
+- Clip policy_dqn parameters mananually as from:
+https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
+
+- Update target according to "environment steps" instead of "optim steps" as from:
+https://towardsdatascience.com/tutorial-double-deep-q-learning-with-dueling-network-architectures-4c1b3fb7f756
+
+- Modify paremeters closer to DeepMind original
+
+- Change initializer?
+
+- Check how screenshots are used in original DeepMind

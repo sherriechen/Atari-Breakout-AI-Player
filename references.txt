@@ -1,0 +1,32 @@
+Original DeepMind Paper:
+
+https://arxiv.org/pdf/1312.5602.pdf
+https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf
+
+*Check P10 of the 2nd link for hyper-parameter chart
+
+
+Sample DQN Codes:
+
+- DQN for Atari Cartpole game:
+https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
+
+- pytorch-DQN for Breakout by anonymous graduate:
+https://github.com/transedward/pytorch-dqn
+
+- DeepMind's DQN code:
+https://github.com/deepmind/dqn
+
+
+Other references:
+
+- DQN implementation blog by another anonymous graduate:
+https://towardsdatascience.com/tutorial-double-deep-q-learning-with-dueling-network-architectures-4c1b3fb7f756
+
+*Check the section "Which adjustments needed to achieve this imporvement?" for initializer adjustment.
+
+
+- Useful explanation and suggestions of more dqn tricks:
+https://github.com/dennybritz/reinforcement-learning/tree/master/DQN
+
+*Just check the README.md doc 
